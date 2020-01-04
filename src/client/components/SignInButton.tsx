@@ -1,10 +1,12 @@
+import React from 'react';
+
 export default function SignInButton() {
     return (
-        <a href="/auth/google" class="button">
+        <a href="/auth/google" className="button">
             <div>
-                <span class="svgIcon t-popup-svg">
+                <span className="svgIcon t-popup-svg">
                     <svg
-                        class="svgIcon-use"
+                        className="svgIcon-use"
                         width="25"
                         height="37"
                         viewBox="0 0 25 25"
@@ -29,7 +31,7 @@ export default function SignInButton() {
                         </g>
                     </svg>
                 </span>
-                <span class="button-label">Sign in with Google</span>
+                <span className="button-label">Sign in with Google</span>
             </div>
         </a>
     );
