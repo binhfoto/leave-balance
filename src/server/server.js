@@ -6,8 +6,7 @@ const app = express();
 
 // public resource
 app.use('/', express.static(__dirname + '/../../public'));
-// app.use('/icon', express.static(__dirname + '/../public/icon'));
-// app.use('/dist', express.static(__dirname + '/../dist'));
+app.use('/dist', express.static(__dirname + '/../../dist'));
 
 
 // error handler
